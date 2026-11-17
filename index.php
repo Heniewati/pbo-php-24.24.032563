@@ -22,7 +22,7 @@ class Buku
     public string $penulis;
     public int $tahun;
 
-    public function __construct(string $judul, $penulis, int $tahun)
+    public function __construct(string $judul,string $penulis, int $tahun)
     {
         $this->judul = $judul;
         $this->penulis = $penulis;
